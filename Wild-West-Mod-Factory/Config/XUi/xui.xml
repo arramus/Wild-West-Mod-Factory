@@ -1,0 +1,22 @@
+<delmod>
+	<append xpath="/xui/ruleset">
+		<window_group name="workstation_AutomatedMining" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsForge" />			
+			<!--window name="windowToolsAutomatedMining"/--> <!-- If you prefer the old system, uncomment and remove windowToolsForge. Remember to change recipe dependencies back to auger. -->			
+			<window name="windowOutput"/>
+			<window name="windowNonPagingHeader"/>
+		</window_group>
+		<window_group name="workstation_AutomatedAmmunition" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsForge" />			
+			<!--window name="windowToolsAutomatedAmmunition"/--> <!-- If you prefer the old system, uncomment and remove windowToolsForge. Remember to change recipe dependencies back to ratchet. -->			
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>	
+	</append>
+</delmod>
